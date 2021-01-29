@@ -1,0 +1,47 @@
+<!DOCTYPE html><!--html 문서의 버전-->
+<html lang="en"><!--english로 작성된 문서-->
+<head>
+    <meta charset="UTF-8"> <!--한글이 깨지지 않도록 함-->
+    <title>회원가입</title> <!--창 이름-->
+    <link rel="stylesheet" href="SignUpCss.css">
+</head>
+<body>
+    <h3>회원가입 양식</h3>
+    <form action="SignIn.html">
+        <table class="signUp">
+            <tr>
+                <td>아이디 </td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>비밀번호 </td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td>비밀번호 확인 </td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td>이름 </td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>나이 </td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td>이메일 </td>
+                <td><input type="text" > @
+                <select>
+                    <oprion>선택</oprion>
+                    <option>naver.com</option>
+                    <option>daum.net</option>
+                    <option>hanmail.com</option>
+                    <option>gamil.com</option>
+                </select></td>
+            </tr>
+        </table>
+        <input type="submit" value="회원가입" class="submit-btn">
+    </form>
+</body>
+</html>

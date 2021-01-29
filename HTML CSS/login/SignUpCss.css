@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+body{
+    background-color: darkslategray;
+}
+h3{
+    text-align: center;
+    color: white;
+}
+form{
+    text-align: center;
+}
+.signUp{
+    width:500px;
+    background-color: #EEEFF1;
+    margin: 50px;
+}
