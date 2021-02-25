@@ -6,8 +6,6 @@
 
 모든 HTML 요소는 Box 형태의 영역을 가지고 있다. 이 박스는 `Content(실제 내용)`, `Padding(내부 여백 영역)`, `Border(테두리)`, `Margin(외부 여백 영역)`으로 구성된다.
 
-
-
 +  margin : A라는 요소와 다른 요소들과의 사이의 간격
 + padding : A라는 요소 안에서 테두리와 내용물의 간격 
 + border: 테두리
@@ -174,4 +172,3 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/border-style
     }
 </style>
 ```
-
