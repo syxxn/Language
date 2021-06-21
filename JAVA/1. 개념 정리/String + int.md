@@ -6,6 +6,7 @@
 System.out.println("A"+3); 11A3
 System.out.println(1+3); //4
 System.out.println("A"+"B"); //AB
+System.out.println(1+3+"A"+1+3); //4A13
 ```
 
 
